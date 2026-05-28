@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Seguridad con Números Primos
+    </title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <div class="fondo"></div>
+
+    <div class="contenedor">
+
+        <h1>
+            Seguridad con Números Primos
+        </h1>
+
+        <h2>
+            Problema Cotidiano
+        </h2>
+
+        <p>
+            Actualmente muchas personas utilizan
+            contraseñas débiles y fáciles de adivinar,
+            poniendo en riesgo su información personal.
+        </p>
+
+        <p>
+            Los números primos son fundamentales
+            en la seguridad informática y la criptografía,
+            ya que ayudan a generar claves más difíciles
+            de descifrar.
+        </p>
+
+        <h2>
+            ¿Qué es un número primo?
+        </h2>
+
+        <p>
+            Un número primo es aquel que solamente
+            puede dividirse entre 1 y sí mismo.
+        </p>
+
+        <p>
+            Ejemplos:
+            2, 3, 5, 7, 11, 13, 17...
+        </p>
+
+        <h2>
+            ¿Por qué sirven en seguridad?
+        </h2>
+
+
+        <p>
+            Los sistemas de seguridad modernos
+            utilizan números primos para crear
+            algoritmos de cifrado y proteger
+            información bancaria, contraseñas
+            y datos privados.
+        </p>
+
+        <p>
+            Mientras más complejo sea el número,
+            más difícil será romper la seguridad.
+        </p>
+        <h2>
+            Explicación del Algoritmo
+        </h2>
+
+        <p>
+            El algoritmo utilizado en este proyecto
+            analiza si un número es primo mediante
+            un ciclo <strong>for</strong>.
+        </p>
+
+        <p>
+            El sistema divide el número ingresado
+            entre todos los valores desde 1 hasta
+            el mismo número.
+        </p>
+
+        <p>
+            Si el número solamente tiene
+            dos divisores exactos:
+        </p>
+
+        <ul>
+
+            <li>
+                El número 1
+            </li>
+
+            <li>
+                Y el mismo número
+            </li>
+
+        </ul>
+
+        <p>
+            Entonces el sistema determina
+            que el número es primo.
+        </p>
+
+        <p>
+            En cambio, si el número tiene
+            más divisores, significa que
+            no es primo y no sería tan
+            seguro para representar una
+            clave básica de seguridad.
+        </p>
+
+        <p>
+            Este algoritmo utiliza:
+        </p>
+
+        <ul>
+
+            <li>
+                Variables <strong>let</strong>
+            </li>
+
+            <li>
+                Ciclos <strong>for</strong>
+            </li>
+
+            <li>
+                Condicionales <strong>if</strong>
+            </li>
+
+            <li>
+                Manipulación del DOM con
+                <strong>getElementById</strong>
+            </li>
+
+        </ul>
+
+        <p>
+            Gracias a esto, la página puede
+            analizar números dinámicamente
+            y mostrar resultados en tiempo real.
+        </p>
+
+        <h2>
+            Simulación de Seguridad
+        </h2>
+
+        <p>
+            Esta simulación permite ingresar
+            un número y verificar si puede
+            representar una clave básica
+            de seguridad.
+        </p>
+
+        <div class="formulario">
+
+            <label>
+                Ingrese un número:
+            </label>
+
+            <input type="number" id="numero" placeholder="Ejemplo: 17">
+
+            <button onclick="verificar()">
+
+                Verificar seguridad
+
+            </button>
+
+        </div>
+
+        <div id="resultado">
+
+            Aquí aparecerá el resultado...
+
+        </div>
+
+        <footer>
+
+            <h2>
+                Restricciones
+            </h2>
+
+            <p>
+                El sistema solamente acepta
+                números positivos mayores a 1.
+            </p>
+
+            <h2>
+                Conclusión
+            </h2>
+
+            <p>
+                Los números primos tienen aplicaciones
+                reales en la ciberseguridad y ayudan
+                a proteger información digital.
+            </p>
+
+            <br>
+
+            <h2>
+                Enlaces del Proyecto
+            </h2>
+
+            <p>
+                Repositorio GitHub:
+                <a href="https://github.com/cfun131/d3safiow3b-numeros-primos.git" target="_blank">
+
+                    Ver repositorio
+
+                </a>
+            </p>
+
+            <br>
+
+            <p>
+                Página publicada:
+                <a href="" target="_blank">
+
+                    Ver página web
+
+                </a>
+            </p>
+
+        </footer>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

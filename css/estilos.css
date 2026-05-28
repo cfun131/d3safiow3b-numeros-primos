@@ -1,0 +1,274 @@
+/* ===== RESET ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== BODY ===== */
+
+body {
+
+    background: #020617;
+
+    color: white;
+
+    padding: 20px;
+
+    overflow-x: hidden;
+
+}
+
+/* ===== FONDO HACKER ===== */
+
+.fondo {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.9)),
+
+        url("https://images.unsplash.com/photo-1510511459019-5dda7724fd87?q=80&w=1600");
+
+    background-size: cover;
+
+    background-position: center;
+
+    z-index: -1;
+
+    filter: brightness(0.5);
+
+}
+
+/* ===== CONTENEDOR ===== */
+
+.contenedor {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    background: rgba(3, 7, 18, 0.88);
+
+    border: 2px solid #00ffff;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    box-shadow:
+        0 0 10px #00ffff,
+        0 0 25px #00ffff,
+        0 0 50px #00ffff;
+
+}
+
+/* ===== TITULO ===== */
+
+h1 {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    color: #00ffff;
+
+    font-size: 42px;
+
+    text-shadow:
+        0 0 5px #00ffff,
+        0 0 15px #00ffff,
+        0 0 30px #00ffff;
+
+}
+
+/* ===== SUBTITULOS ===== */
+
+h2 {
+
+    margin-top: 25px;
+
+    margin-bottom: 10px;
+
+    color: #39ff14;
+
+    text-shadow:
+        0 0 5px #39ff14,
+        0 0 15px #39ff14;
+
+}
+
+/* ===== PARRAFOS ===== */
+
+p {
+
+    line-height: 1.8;
+
+    color: #dbeafe;
+
+}
+
+/* ===== FORMULARIO ===== */
+
+.formulario {
+
+    margin-top: 25px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+}
+
+/* ===== INPUT ===== */
+
+input {
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+
+    background: #0f172a;
+
+    color: white;
+
+    border: 2px solid #ff00ff;
+
+    outline: none;
+
+    box-shadow:
+        0 0 5px #ff00ff,
+        0 0 15px #ff00ff;
+
+}
+
+/* ===== BOTON ===== */
+
+button {
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #00ffff;
+
+    color: black;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0 0 5px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff;
+
+}
+
+/* ===== HOVER ===== */
+
+button:hover {
+
+    transform: scale(1.05);
+
+    background: #67e8f9;
+
+}
+
+/* ===== RESULTADO ===== */
+
+#resultado {
+
+    margin-top: 25px;
+
+    background: #0f172a;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    border: 2px solid #00ffff;
+
+    box-shadow:
+        0 0 10px #00ffff;
+
+    line-height: 2;
+
+    font-size: 18px;
+
+}
+
+/* ===== ILUSTRACIONES ===== */
+
+.hacker {
+
+    font-size: 50px;
+
+    text-align: center;
+
+    margin-top: 20px;
+
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+
+    margin-top: 40px;
+
+    text-align: center;
+
+}
+
+/* ===== LINKS ===== */
+
+a {
+
+    color: #00ffff;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+a:hover {
+
+    color: #39ff14;
+
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:700px) {
+
+    .contenedor {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+}
